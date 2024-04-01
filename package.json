@@ -1,0 +1,21 @@
+{
+  "name": "dead-bots",
+  "version": "0.0.1",
+  "description": "A shared logic for all your dead/unused Telegram bots",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "keywords": [
+    "telegraf",
+    "Telegram",
+    "bot"
+  ],
+  "author": "M4ss1ck",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  }
+}

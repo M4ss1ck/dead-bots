@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "dead-bots",
+      "script": "index.js",
+      "node_args": "-r dotenv/config",
+      "watch": ["index.js"],
+      "watch_delay": 1000,
+      "ignore_watch": ["node_modules"],
+      "watch_options": {
+        "followSymlinks": false
+      }
+    }
+  ]
+}
